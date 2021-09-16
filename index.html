@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nier Automata Landing</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <a class="logo" href="https://www.square-enix.com/" target="_blank">SQUARE ENIX</a>
+            <div class="toggle"></div>
+        </header>
+        <video src="pond.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+            <h2>NieR:Automata</h2>
+            <p>
+                "Everything that lives is designed to end. <br>
+                They are perpetually trapped in a never-ending spiral of life and death. <br>
+                However, life is all about the struggle within this cycle. <br> 
+                That is what 'we' believe." - 2B
+            </p>
+            <a href="https://www.youtube.com/watch?v=wJxNhJ8fjFk" target = "_blank">TRAILER</a>
+        </div>
+        <ul class="social">
+            <li><a href="#"><img src="fb.png" alt=""></a></li>
+            <li><a href="#"><img src="tw.png" alt=""></a></li>
+            <li><a href="#"><img src="ig.png" alt=""></a></li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">2B</a></li>
+            <li><a href="#">9S</a></li>
+            <li><a href="#">A2</a></li>
+            <li><a href="#">E__l</a></li>
+            <li><a href="#">_a_n_</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+    </script>
+</body>
+
+</html>
