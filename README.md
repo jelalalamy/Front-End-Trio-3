@@ -1,3 +1,7 @@
+# About
+
+This was something I made long ago when I was just starting to learn HTML, CSS, and JavaScript. At the time, I was obsessed with the NieR series (I still am) so I thought I'd honour it in my own special way.
+
 # Front-End-Trio-3
 Part 3/3 of the Front End Trio.
 
